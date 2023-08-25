@@ -73,6 +73,29 @@
     left: 25%;
 }
 
+@media (max-width: 1000px){
+    .content .content-inner h1 {
+        font-size: 120px;
+        line-height: 100px;
+    }
+
+    .content .content-inner .cash {
+        top: 43%;
+        left: 20%;
+    }
+    
+    .content .content-inner .phone {
+        top: 35%;
+        left: 40%;
+        height: 300px;
+    }
+    
+    .content .content-inner .app-text {
+        top: 55%;
+        left: 30%;
+    }
+}
+
 @media (max-width: 600px) {
 
     .content {
