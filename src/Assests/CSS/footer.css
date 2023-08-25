@@ -95,7 +95,7 @@
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .footer {
         width: 400px;
         margin: 0;
@@ -103,7 +103,7 @@
         flex-direction: column;
         justify-content: space-between;
         position: absolute;
-        bottom: -40%;
+        bottom: -50%;
     }
 
     .footer .left-section {
