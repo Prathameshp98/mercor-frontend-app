@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 
 import Layout from './components/Layout';
+import Sidebar from './components/Sidebar';
 
 const Header = React.lazy(() => import('./components/Header'));
 const Content = React.lazy(() => import('./components/Content'));
@@ -13,6 +14,7 @@ function App() {
     <div className="app">
       <Layout>
         <Header />
+        <Sidebar />
         <Content />
         <Footer />
       </Layout>

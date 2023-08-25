@@ -18,7 +18,7 @@ const Content = () => {
         <div className='content-inner'>
             <h1 className='cash'>CASH</h1>
             <img className='phone' src={Phone} alt="" />
-            <h1 className='app'>APP</h1>
+            <h1 className='app-text'>APP</h1>
         </div>
     </div>
   )

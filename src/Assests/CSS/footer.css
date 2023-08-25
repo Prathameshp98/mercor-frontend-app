@@ -34,6 +34,7 @@
     border-radius: 7px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .footer .left-section button p {
@@ -51,6 +52,7 @@
 .footer .right-section img {
     height: 30px;
     margin: 15px 0;
+    cursor: pointer;
 }
 
 .footer .right-section p {
@@ -70,4 +72,61 @@
 
 .footer .right-section .logos img {
     height: 24px;
+}
+
+@media (max-width: 1000px){
+
+    .footer {
+        width: 100%;
+        margin: 200px 0 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -50%;
+    }
+
+    .footer .left-section {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .footer {
+        width: 400px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -40%;
+    }
+
+    .footer .left-section {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .right-section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer .right-section p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .right-section .logos {
+        display: flex;
+        justify-content: center;
+    }
+
 }
