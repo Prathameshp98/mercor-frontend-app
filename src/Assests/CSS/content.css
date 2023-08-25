@@ -151,3 +151,28 @@
     }
 
 }
+
+@media (min-width: 1500px){
+
+    .content .content-inner h1 {
+        font-size: 200px;
+        line-height: 170px;
+    }
+
+    .content .content-inner .cash {
+        top: 40%;
+        left: 25%;
+    }
+    
+    .content .content-inner .phone {
+        top: 30%;
+        left: 40%;
+        height: 500px;
+    }
+    
+    .content .content-inner .app-text {
+        top: 56%;
+        left: 33%;
+    }
+
+}
